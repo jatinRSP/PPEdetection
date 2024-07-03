@@ -13,9 +13,9 @@ pygame.mixer.init()
 
 # Audio file paths
 audio_files = {
-    'NO-Hardhat': 'helmet.mp3',
-    'NO-Mask': 'mask.mp3',
-    'NO-Safety': 'west.mp3'
+    'NO-Hardhat': './AUDIO/helmet.mp3',
+    'NO-Mask': './AUDIO/mask.mp3',
+    'NO-Safety': './AUDIO/west.mp3'
 }
 
 log_filename = None
@@ -140,5 +140,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
