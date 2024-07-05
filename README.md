@@ -16,6 +16,9 @@ We created an Automated PPE Violation Detection and Logging System to enhance sa
 - *pyttsx3:* Text-to-speech conversion library for audio notifications.
 - *pygame:* Library for playing audio files.
 
+## Dataset Link
+https://www.kaggle.com/datasets/snehilsanyal/construction-site-safety-image-dataset-roboflow
+
 ## System Architecture
 1. *Video Capture:* Webcam captures real-time video feed.
 2. *PPE Detection:* YOLO model processes frames to detect PPE compliance.
