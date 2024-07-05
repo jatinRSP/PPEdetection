@@ -7,7 +7,7 @@ video_capture = cv2.VideoCapture(0)  # Use 0 for the primary camera
 def generate_frames():
     while True:
         success, frame = video_capture.read()  # Capture frame-by-frame
-        # flip the frame
+        # Flip the frame
         frame = cv2.flip(frame, 1)
         if not success:
             break
